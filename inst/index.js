@@ -15,7 +15,7 @@ async function scrape(tag) {
     url: "https://instagram-scraper-2022.p.rapidapi.com/ig/posts_username/",
     params: { user: tag.replace(/\r?\n|\r/g, "") },
     headers: {
-      "X-RapidAPI-Key": "5cc4567287mshabd10ee544bbba5p1a14b7jsnb38aab8eb527",
+      "X-RapidAPI-Key": "xxxxxxxxxxxxxxxxxxxxxxxx",
       "X-RapidAPI-Host": "instagram-scraper-2022.p.rapidapi.com",
     },
   }

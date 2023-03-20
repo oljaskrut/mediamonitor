@@ -5,7 +5,7 @@ import dayjs from "../day/index.js"
 import { uploadSingleZ } from "../db/index.js"
 import send from "../send/index.js"
 
-const client = new language.LanguageServiceClient({ projectId: "paperboy3" })
+const client = new language.LanguageServiceClient()
 const translate = new Translate()
 
 const POSITIVE_THRESHOLD = 0.2

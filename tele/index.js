@@ -2,11 +2,9 @@ import { TelegramClient } from "telegram"
 import { StringSession } from "telegram/sessions/index.js"
 import dayjs from "dayjs"
 import delay from "delay"
-const apiId = 16375327
-const apiHash = "e1fb2b5189d1c63f4fbfe8f02bd45ff2"
-const stringSession = new StringSession(
-  "1AgAOMTQ5LjE1NC4xNjcuNTEBuwmzAAWxwmE6PidfMfva9koLXNuFfodx+WYi23qjcDY1oufQtpTqPJzgGzRrWY9aO3N0Uj5SrhJEdvy1vTU4pnjNtW5o2aZBqW4Q/HP0xpWBsk44bbPzV3brW0BedHaSjiSye/0/7Y9vJhWaRwuFu7OZxm5HGVDasu2ReaxbOnuTVaWQZ1nwdSaWjAzC4DproG7jSrOqikpbJMNomp2yWcAry2lT5L8aS9NrSo7K0PWTaYI/qrAxE+vurjMRSXzGf45CSD1FnfS5MKPdE/S9ZZ06CMiyecAJGBXWSrm50crtOzrFY3CXf2QMle6pgHee9l5m+PzItVKW2XhqYhjCj3M=",
-)
+const apiId = 00000000
+const apiHash = "XXXXXXXXXXXXXXX"
+const stringSession = new StringSession("XXXXXXXXXXXX")
 import natural from "natural"
 
 const tokenizer = new natural.SentenceTokenizer()

@@ -6,7 +6,7 @@ const tokenizer = new natural.SentenceTokenizer()
 async function scrape(tag, name) {
   try {
     await delay(~~(Math.random() * 5000))
-    const { data } = await axios(`https://us-central1-paperboy3.cloudfunctions.net/scrapeface?tag=${tag}&name=${name}`)
+    const { data } = await axios(`https://us-central1-XXXXXXX.cloudfunctions.net/scrapeface?tag=${tag}&name=${name}`)
     if (data.length == 0) console.log("fb", "emt", name)
     const ndata = []
     data.forEach((el) => {
@@ -30,17 +30,7 @@ export default async function scrapeFace() {
   const namem = [
     ["AigulOrynbek", "profile.php?id=100007981087790"],
     ["AminaKolbayeva", "profile.php?id=100008181855482"],
-    ["GalymTurmanbekov", "profile.php?id=100021639602124"],
-    ["ZaureMirzakhodjaeva", "zaure.mir"],
-    ["TutkabaiFazylbek", "tutkabai.fazylbek"],
-    ["UlykbekUmbet", "profile.php?id=100015556242427"],
-    ["ZhanarTurbalaevna", "janar.nurimbetova"],
-    ["LyazatAsanova", "profile.php?id=100016171691346"],
-    ["AliaOrtayeva", "profile.php?id=100007615541216"],
-    ["BahytzhanKopbayev", "x.newskz"],
-    ["RakhmanaliOrazbayev", "rakhmanali.orazbayev"],
-    ["KorrupciamenKuresu", "profile.php?id=100077259957443"],
-    ["GaniOmirali", "profile.php?id=100011420579891"],
+   
   ]
 
   const promiscious = []
